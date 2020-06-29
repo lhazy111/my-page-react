@@ -1,0 +1,9 @@
+const certpics = [
+    { id: 0, src: '/img/certs/elsd.png', title: 'foo', description: 'bar' },
+    { id: 1, src: '/img/certs/pro1_cs_intro.png', title: 'foo', description: 'This Microsoft Professional Certificate is granted for completing the following three courses:' },
+    { id: 2, src: '/img/certs/pro1_1_236x.png', title: 'foo', description: 'Exploring data types and variables, strings, input, testing, and formatting, arguments and parameters, along with conditionals and nested conditionals. Creating programs that prompt users for input and use conditional True/False logic and Python methods to manipulate numbers and text to provide responses to the users, in addition to requesting further input. Plus basic troubleshooting for the code.' },
+    { id: 3, src: 'img/certs/pro1_2_274x.png', title: 'foo', description: 'Working with sample code in Jupyter Notebooks on Azure. Focusing on Python data structures, and working with string, list, and range sequences. Discovering the power of list iteration, and learning about string and list methods. A lot of other practical Python tasks.' },
+    { id: 4, src: 'img/certs/pro1_3_262x.png', title: 'foo', description: 'Understanding how a computer “thinks” is one of the first steps to becoming an excellent computer programmer. A foundation in logic is crucial in developing this understanding. Mastering logic is more than learning a set of rules. It involves learning how to break problems into smaller chunks, figuring out how repeatable processes can save time and improve quality, and understanding how to organize problems into the right size.' },
+];
+
+export default certpics;
