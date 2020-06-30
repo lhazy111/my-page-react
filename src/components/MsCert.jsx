@@ -2,15 +2,12 @@ import React from 'react'
 import { Col, Image } from 'react-bootstrap'
 
 
-export default function MsCert({ lgPic, mdPic, src, alt, lgDes, mdDes, description }) {
+export default function MsCert({ src, alt, description }) {
     return (
         <>
-            <Col lg={lgPic} md={mdPic}>
+            <Col lg={4} md={6}>
                 <Image fluid className="shadow zoom" src={src} alt={alt} />
-            </Col>
-            <Col lg={lgDes} md={mdDes} className="d-flex align-items-center">
-                <p className="p-2">{description}
-                </p>
+                <p className="p-2">{description}</p>
             </Col>
         </>
     )

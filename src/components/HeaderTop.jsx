@@ -1,6 +1,6 @@
 import React from 'react'
 import { Image, Container } from 'react-bootstrap'
-import avatar from '../img/avataaars.png';
+import avatar from '../images/avataaars.png';
 //import '../styles.css'
 
 
