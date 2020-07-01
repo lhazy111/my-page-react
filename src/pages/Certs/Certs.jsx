@@ -11,7 +11,7 @@ const classes = [
 
 const Certs = () => {
     return (
-        <div>
+        <>
             <section className={classes[0]} id="certificates">
                 <Container>
                     <Divider
@@ -44,7 +44,7 @@ const Certs = () => {
                 </Container>
             </section>
 
-        </div>
+        </>
     )
 }
 export default Certs

@@ -27,10 +27,21 @@
     
   } 
 
-  .card {
+  #progress_section .card {
     border: none !important;
     border-radius: 0% !important;
     box-shadow: black 4px 4px 5px;
+  }
+
+  #projects_section .card-title {
+    min-height: 8rem;
+  }
+
+.project-description{
+    min-height: 12rem;
+  }
+  .project-card-button{
+    margin-top: auto;
   }
 
   .full-screen{
@@ -42,6 +53,21 @@
     border-radius: 0% !important;
 
   }
+
+  .w-90 {
+    width: 90%;
+  }
+  
+  
+
+  .btn {
+    border-radius: 0% !important;
+    border: solid 1px !important;
+    width: 90%;
+  
+  }
+
+  
 
   /*-----------------------------------------------*/
 :root {
@@ -3362,8 +3388,8 @@ input[type="button"].btn-block {
   word-wrap: break-word;
   background-color: #fff;
   background-clip: border-box;
-  border: 0.125rem solid rgba(0, 0, 0, 0.125);
-  border-radius: 0.5rem; }
+  /*border: 0.125rem solid rgba(0, 0, 0, 0.125);*/
+  /*border-radius: 0.5rem;*/ }
   .card > hr {
     margin-right: 0;
     margin-left: 0; }
