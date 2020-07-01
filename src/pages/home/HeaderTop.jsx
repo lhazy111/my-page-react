@@ -1,8 +1,6 @@
 import React from 'react'
 import { Image, Container } from 'react-bootstrap'
-import avatar from '../images/avataaars.png';
-//import '../styles.css'
-
+import avatar from './avataaars.png';
 
 
 const HeaderTop = () => {

@@ -2,7 +2,7 @@ import React from 'react'
 import { Navbar, Nav, NavDropdown } from 'react-bootstrap'
 
 
-function NavbarTop() {
+const NavbarTop = () => {
     return (
         <div>
             <Navbar collapseOnSelect expand="lg" bg="danger" variant="dark" className="shadow">

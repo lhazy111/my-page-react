@@ -1,18 +1,21 @@
 import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
-import { Divider } from './Divider'
+import Divider from '../../components/Divider'
 
 const About = () => {
+    const classes = [
+        `page-section mb-0`,
+        `ml-3`
+    ]
     return (
         <div>
-            <section className="page-section mb-0" id="about">
+            <section className={classes[0]} id="about">
                 <Container>
                     <Divider
                         sectionName="about me"
                         textColor="secondary" />
-                    {/* <!-- About Section Content--> */}
                     <Row>
-                        <Col lg={8} className="ml-3">
+                        <Col lg={8} className={classes[1]}>
                             <p>
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
                                 doloribus architecto dicta laudantium quidem non dolorem facere voluptatem quia, obcaecati

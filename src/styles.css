@@ -26,6 +26,23 @@
     transform: scale(1.02);
     
   } 
+
+  .card {
+    border: none !important;
+    border-radius: 0% !important;
+    box-shadow: black 4px 4px 5px;
+  }
+
+  .full-screen{
+    height: 100vh;
+  
+  }
+
+  img {
+    border-radius: 0% !important;
+
+  }
+
   /*-----------------------------------------------*/
 :root {
   --blue: #007bff;

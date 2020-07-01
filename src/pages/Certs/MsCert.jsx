@@ -2,7 +2,7 @@ import React from 'react'
 import { Col, Image } from 'react-bootstrap'
 
 
-export default function MsCert({ src, alt, description }) {
+const MsCert = ({ src, alt, description }) => {
     return (
         <>
             <Col lg={4} md={6}>
@@ -12,3 +12,4 @@ export default function MsCert({ src, alt, description }) {
         </>
     )
 }
+export default MsCert

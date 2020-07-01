@@ -68,18 +68,58 @@ export default [
         description: 'Learning how to turn a static web front-end into something that users can interact with. Fundamentals of JavaScript and applying JavaScript to enhance the interactivity of webpages. DOM manipulations basics.'
     },
     {
-        id: 10,
+        id: 11,
         src: '/assets/img/certs/pro3_2_280x.png',
         title: '',
         description: 'Basics of back-end web development, basics of Node.js, using JavaScript code to build the back-end of the app, as well as the basics of SQL and SQLite to write queries to work with a database.'
     },
     {
-        id: 11,
+        id: 12,
         src: '/assets/img/certs/pro3_3_284x.png',
         title: '',
         description: 'Turning ideas into technical solutions. Studying the process of market research, user-centered design, and front-end web development, wireframes and specification for a web app along with a front-end user interface built with HTML and CSS.'
     },
-
+    {
+        id: 13,
+        src: '/assets/img/certs/pro4_enterpriseSD.png',
+        title: 'pro',
+        description: 'This Microsoft Professional Certificate is granted for completing the following three courses:'
+    },
+    {
+        id: 14,
+        src: '/assets/img/certs/pro4_1_275x.png',
+        title: '',
+        description: 'Managing change, evolving a codebase,maintaining quality, and keeping users and business safe. Working with a collection of code in a version control system like Git, using open source (OSS)libraries, making updates to existing code, improving its readability.'
+    },
+    {
+        id: 15,
+        src: '/assets/img/certs/pro4_2_241x.png',
+        title: '',
+        description: 'This course is introduction to the Design Thinking process and illustrates best practices for each step along the way. Studying many practical and applicable skills such as user research and rapid prototyping.'
+    },
+    {
+        id: 16,
+        src: '/assets/img/certs/pro4_3_dis50.png',
+        title: '',
+        description: 'The instructors for this course include programmers who have worked on globalization and localization of some of the world’s most successful software. They’ve experienced the good, the bad, and the ugly of creating world-ready software, and they’re here to ensure your software’s user experience works consistently, regardless of where users are from or what languages they speak. This course has three parts: the business case, world-ready design, and world-ready development.'
+    },
+    {
+        id: 17,
+        src: '/assets/img/certs/free_resp_web_design.png',
+        title: 'pro',
+        description: 'This FreecodeCamp certificate'
+    },
+    {
+        id: 18,
+        src: '/assets/img/certs/free_js-algorithms_design.png',
+        title: 'pro',
+        description: 'This FreecodeCamp certificate'
+    },
+    {
+        id: 19,
+        src: '/assets/img/certs/free_libraries.png',
+        description: 'This FreecodeCamp certificate'
+    },
 
 ]
 
