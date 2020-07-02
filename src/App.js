@@ -5,11 +5,12 @@ import About from './pages/About/About';
 import Certs from './pages/Certs/Certs';
 import InProgress from './pages/InProgress/InProgress';
 import Projects from './pages/projects/Projects';
+import { Container, Row, Image, Col } from 'react-bootstrap'
+
 
 function App() {
   return (
     <>
-      <NavbarTop />
       <HeaderTop />
       <About />
       <Certs />

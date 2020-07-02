@@ -6,6 +6,26 @@
  */
 
 /*additional classes*/
+#home-logo {
+  height: 10rem;
+}
+#home-avatar {
+  width: 16rem;
+}
+
+#home-wrap{
+  height: 100vh;
+  background-color: blue;
+}
+.home-left{
+  background-color: black;
+  box-shadow: 2px 2px 2px black;
+  z-index: 3;
+}
+
+.home-right{
+  background-color: rgb(255, 208, 0);
+}
 .grad1 {
   background-image: linear-gradient(white,#e7b633, rgb(111, 235, 235));
 }
@@ -19,7 +39,7 @@
    }
   
    .zoom {
-    transition: transform .5s; /* Animation */
+    transition: transform .2s; /* Animation */
   }
   
   .zoom:hover {
@@ -43,6 +63,10 @@
   .project-card-button{
     margin-top: auto;
   }
+.project-card:hover {
+    box-shadow: black 4px 4px 9px ;
+
+  }
 
   .full-screen{
     height: 100vh;
@@ -61,7 +85,7 @@
   
 
   .btn {
-    border-radius: 0% !important;
+    border-radius: .1rem !important;
     border: solid 1px !important;
     width: 90%;
   

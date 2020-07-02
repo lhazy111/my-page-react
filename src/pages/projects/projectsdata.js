@@ -3,12 +3,25 @@ export default [
         id: 0,
         title: 'Weather page',
         subtitle: 'HTML, CSS, Bootstrap, Javascript, Jquery.',
-        imgsrc: '/assets/img/projects/weather2.png',
         description: "This app uses 2 different API's: one to show exact location of the weather station, and the other to get weather report and display it. Some 250.000 records JSON file is being searched and some AJAX requests in use and DOM manipulations.",
         prlink: './projects/weather/index.html'
     },
     {
         id: 1,
+        title: 'Calculator',
+        subtitle: 'HTML, CSS, React, React Bootstrap',
+        description: "This app is one of Freecodecamp Front End Libraries Certification Projects",
+        prlink: './projects/weather/index.html'
+    },
+    {
+        id: 2,
+        title: 'Pomodoro clock',
+        subtitle: 'HTML, CSS, ReactBootstrap, React',
+        description: "This app is one of Freecodecamp Front End Libraries Certification Projects",
+        prlink: './projects/weather/index.html'
+    },
+    {
+        id: 2,
         title: 'Bob the builder',
         subtitle: 'HTML, CSS, Bootstrap, Javascript, Jquery.',
         imgsrc: '/assets/img/projects/bob.png',
@@ -16,7 +29,7 @@ export default [
         prlink: './projects/weather/index.html'
     },
     {
-        id: 2,
+        id: 3,
         title: 'Battle ship',
         subtitle: 'HTML, CSS, Bootstrap, Javascript, Jquery.',
         imgsrc: '/assets/img/projects/battleship.png',
@@ -24,7 +37,7 @@ export default [
         prlink: './projects/weather/index.html'
     },
     {
-        id: 3,
+        id: 4,
         title: 'Trivia',
         subtitle: 'HTML, CSS, Bootstrap, Javascript, Jquery.',
         imgsrc: '/assets/img/projects/trivia.png',
@@ -32,7 +45,7 @@ export default [
         prlink: './projects/weather/index.html'
     },
     {
-        id: 4,
+        id: 5,
         title: 'Background generator',
         subtitle: 'HTML, CSS, Javascript.',
         imgsrc: '/assets/img/projects/bg_genertor.png',
@@ -40,7 +53,7 @@ export default [
         prlink: './projects/weather/index.html'
     },
     {
-        id: 5,
+        id: 6,
         title: 'Shopping list',
         subtitle: 'HTML, CSS, Bootstrap, Jquery, Javascript',
         imgsrc: '/assets/img/projects/s-list.png',
@@ -48,7 +61,7 @@ export default [
         prlink: './projects/weather/index.html'
     },
     {
-        id: 6,
+        id: 7,
         title: 'Weryk online',
         subtitle: 'HTML, CSS, Bootstrap, Jquery, Javascript',
         imgsrc: '/assets/img/projects/weryk.png',
@@ -56,7 +69,7 @@ export default [
         prlink: './projects/weather/index.html'
     },
     {
-        id: 7,
+        id: 8,
         title: 'Landing page',
         subtitle: 'HTML, CSS, Bootstrap, Jquery, Javascript',
         imgsrc: '/assets/img/projects/landing.png',
@@ -64,7 +77,7 @@ export default [
         prlink: './projects/weather/index.html'
     },
     {
-        id: 8,
+        id: 9,
         title: 'Reaction time',
         subtitle: 'Scratch',
         imgsrc: '/assets/img/projects/scratch.png',
@@ -72,7 +85,7 @@ export default [
         prlink: './projects/weather/index.html'
     },
     {
-        id: 9,
+        id: 10,
         title: 'Photo web portofolio',
         subtitle: 'HTML, CSS, Javascript',
         imgsrc: '/assets/img/projects/moriak.png',
