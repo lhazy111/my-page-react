@@ -16,8 +16,9 @@ const InProgress = () => {
             <section className={classes[0]} id="progress_section">
                 <Container className="bg-danger p-5 section-shadow rounded">
                     <Divider
-                        sectionName="in progress"
+                        sectionName="In progress"
                         textColor="warning" />
+
                     <Row className="d-flex justify-content-center">
                         <Col sm={4}>
                             <Image fluid src={lifelong} />

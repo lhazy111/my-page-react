@@ -1,5 +1,5 @@
 import React from 'react'
-import { Col, Image, Card, CardImg } from 'react-bootstrap'
+import { Col, Image, Card } from 'react-bootstrap'
 
 const classes = [
     `px-2 py-2`,

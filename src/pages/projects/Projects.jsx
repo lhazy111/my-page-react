@@ -1,6 +1,6 @@
 import React from 'react'
 import Divider from '../../components/Divider'
-import { Container, Row, Image } from 'react-bootstrap'
+import { Container, Row } from 'react-bootstrap'
 import Project from './Project'
 import projects from './projectsdata'
 import pr0 from './img/weather.png'
@@ -29,7 +29,7 @@ const Projects = () => {
         <>
             <section className={classes[0]} id="projects_section">
                 <Container >
-                    <Divider sectionName="projects" textColor="light" />
+                    <Divider sectionName="Projects" textColor="light" />
                     <p className={classes[1]}>
                         In this section I would like to present some of the projects created on my self-study way...
                     </p>

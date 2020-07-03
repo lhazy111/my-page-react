@@ -9,10 +9,10 @@ const About = () => {
     ]
     return (
         <div>
-            <section className={classes[0]} id="about">
+            <section className={classes[0]} id="about-me">
                 <Container className="bg-danger p-5 rounded section-shadow">
                     <Divider
-                        sectionName="about me"
+                        sectionName="About me"
                         textColor="secondary" />
                     <Row >
                         <Col lg={8} className={classes[1]}>
