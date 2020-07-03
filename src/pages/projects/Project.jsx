@@ -1,6 +1,5 @@
 import React from 'react'
 import { Col, Image, Card, CardImg } from 'react-bootstrap'
-import { Paper } from '@material-ui/core'
 
 const classes = [
     `px-2 py-2`,
@@ -11,7 +10,7 @@ const classes = [
     `p-3 project-description`,
     'font-weight-light font-italic text-small',
     `pt-4 text-center project-card-button`,
-    `btn btn-sm btn-outline-light text-small mb-3`
+    `btn btn-sm btn-primary text-small mb-3`
 ]
 
 const Project = ({ project, imgsrc }) => {

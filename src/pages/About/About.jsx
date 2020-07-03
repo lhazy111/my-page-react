@@ -4,17 +4,17 @@ import Divider from '../../components/Divider'
 
 const About = () => {
     const classes = [
-        `page-section mb-0`,
+        `page-section mb-0 bg-info`,
         `ml-3`
     ]
     return (
         <div>
             <section className={classes[0]} id="about">
-                <Container>
+                <Container className="bg-danger p-5 rounded section-shadow">
                     <Divider
                         sectionName="about me"
                         textColor="secondary" />
-                    <Row>
+                    <Row >
                         <Col lg={8} className={classes[1]}>
                             <p>
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae

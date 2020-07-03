@@ -15,17 +15,15 @@
 
 #home-wrap{
   height: 100vh;
-  background-color: blue;
 }
-.home-left{
-  background-color: black;
+/* .home-left{
   box-shadow: 2px 2px 2px black;
   z-index: 3;
 }
 
 .home-right{
   background-color: rgb(255, 208, 0);
-}
+} */
 .grad1 {
   background-image: linear-gradient(white,#e7b633, rgb(111, 235, 235));
 }
@@ -53,6 +51,9 @@
     box-shadow: black 4px 4px 5px;
   }
 
+  #projects_section {
+    background-color: blueviolet;
+  }
   #projects_section .card-title {
     min-height: 8rem;
   }
@@ -64,8 +65,11 @@
     margin-top: auto;
   }
 .project-card:hover {
-    box-shadow: black 4px 4px 9px ;
+    box-shadow: white 0px 0px 15px ;
 
+  }
+  .section-shadow {
+    box-shadow: white 0px 0px 15px ;
   }
 
   .full-screen{
@@ -108,14 +112,14 @@
   --white: #fff;
   --gray: #6c757d;
   --gray-dark: #343a40;
-  --primary: #a18789;
-  --secondary: #e7b633;
-  --success: #28a745;
-  --info: #17a2b8;
+  --primary: #ffd000;
+  --secondary: #749c9a;
+  --success: #f5a76c;
+  --info: #e05c45;
   --warning: #ffc107;
   --danger: #dc3545;
   --light: #f8f9fa;
-  --dark: #343a40;
+  --dark: #000000;
   --breakpoint-xs: 0;
   --breakpoint-sm: 576px;
   --breakpoint-md: 768px;

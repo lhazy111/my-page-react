@@ -5,7 +5,7 @@ import certpics from './certpics'
 import MsCertSet from './MsCertSet'
 import MsCertPro from './MsCertPro'
 const classes = [
-    "grad1 page-section mb-0 bg-secondary certificates",
+    "page-section mb-0 bg-info certificates",
     "pt-5 text-monospace text-small d-flex justify-content-center",
     "shadow-sm zoom"]
 
@@ -13,7 +13,7 @@ const Certs = () => {
     return (
         <>
             <section className={classes[0]} id="certificates">
-                <Container>
+                <Container className="bg-secondary p-5 rounded section-shadow">
                     <Divider
                         sectionName="Certificates"
                         textColor="dark"

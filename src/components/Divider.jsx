@@ -8,7 +8,7 @@ const Divider = ({ sectionName, textColor }) => {
     return (
         <div>
             <div>
-                <h2 className={classes[0]}>{sectionName.toUpperCase()}</h2>
+                <h2 className={classes[0]}>{sectionName}</h2>
             </div>
             <div className={classes[1]}>
                 <div className={classes[2]}></div>

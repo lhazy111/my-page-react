@@ -9,20 +9,20 @@ const HeaderTop = () => {
     return (
         <>
             <Container fluid id="home-wrap">
-                <Row className="h-100">
-                    <Col className="d-flex align-items-center justify-content-center flex-column home-left shadow">
+                <Row className="h-100 bg-info">
+                    <Col className="d-flex align-items-center justify-content-center flex-column home-left shadow bg-info">
                         <Image fluid id="home-logo" src={logo} />
 
                     </Col>
-                    <Col className="home-right">
-                        <Row className="d-flex justify-content-around shadow">
+                    <Col className="home-right bg-primary rounded section-shadow">
+                        <Row className="d-flex justify-content-around">
                             <NavbarTop />
                         </Row>
                         <Row className="h-100 pt-5">
                             <Col className="d-flex flex-column align-items-center justify-content-around">
                                 <div>
                                     <Image fluid id="home-avatar" src={avatar} />
-                                    <h1 className="masthead-heading text-center mb-0">Welcome</h1>
+                                    <h1 className="masthead-heading text-center mb-0 border border-info">Welcome</h1>
                                 </div>
                                 <p className="pre-wrap masthead-subheading font-weight-light mb-0">HTML_CSS_JS_BOOTSTRAP_REACT...</p>
 
