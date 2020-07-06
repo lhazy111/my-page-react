@@ -10,12 +10,12 @@ const HeaderTop = () => {
         <>
             <Container fluid id="home-wrap">
                 <Row className="h-100 bg-info">
-                    <Col className="d-flex align-items-center justify-content-center flex-column home-left shadow bg-info">
+                    <Col md={6} className="d-flex align-items-center justify-content-center flex-column home-left shadow bg-info">
                         <Image fluid id="home-logo" src={logo} />
 
                     </Col>
-                    <Col className="home-right bg-primary rounded section-shadow">
-                        <Row className="d-flex justify-content-around">
+                    <Col md={6} className="home-right bg-primary rounded section-shadow">
+                        <Row className="d-flex justify-content-center ">
                             <NavbarTop />
                         </Row>
                         <Row className="h-100 pt-5">

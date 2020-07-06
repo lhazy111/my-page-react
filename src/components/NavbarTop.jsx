@@ -1,20 +1,43 @@
 import React from 'react'
 import { Navbar, Nav } from 'react-bootstrap'
+import { Link } from "react-scroll";
 
 
 const NavbarTop = () => {
     return (
         <>
-            <Navbar collapseOnSelect expand="lg" className="text-dark shadow p-0 mt-5 rounded text-center">
-                <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-                <Navbar.Collapse id="responsive-navbar-nav">
-                    <Nav className="">
-                        <Nav.Link href="#about">About</Nav.Link>
-                        <Nav.Link href="#certificates">Qualifications</Nav.Link>
-                        <Nav.Link href="#projects_section">Projects</Nav.Link>
-                        <Nav.Link href="#pricing">Contact</Nav.Link>
-                    </Nav>
-                </Navbar.Collapse>
+            <Navbar className="text-dark shadow p-0 pb-2 rounded mt-3">
+                <Nav className="d-flex flex-column flex-md-row " id="navbar">
+                    <Nav.Item className="">
+                        <Link
+                            className="btn"
+                            to="about-me"
+                            spy={true}
+                            smooth={true}
+                            duration={1000}
+                        >About</Link>
+                    </Nav.Item>
+                    <Nav.Item>
+                        <Link
+                            className="btn"
+                            to="certificates"
+                            spy={true}
+                            smooth={true}
+                            duration={1000}>
+                            Qualifications
+                        </Link>
+                    </Nav.Item>
+                    <Nav.Item>
+                        <Link
+                            className="btn"
+                            to="projects_section"
+                            spy={true}
+                            smooth={true}
+                            duration={1000}>
+                            Projects
+                        </Link>
+                    </Nav.Item>
+                </Nav>
             </Navbar>
         </>
     )

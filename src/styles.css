@@ -7,7 +7,7 @@
 
 /*additional classes*/
 #home-logo {
-  height: 10rem;
+  width: 16rem;
 }
 #home-avatar {
   width: 16rem;
@@ -24,6 +24,19 @@
 .home-right{
   background-color: rgb(255, 208, 0);
 } */
+.no-border{
+  border: none !important;
+}
+
+#navbar .btn:hover{
+  /* background-color:yellow; */
+  color: yellow;
+
+  text-shadow:1px 1px 1px yellow;
+  /* box-shadow: 0px 7px 19px yellow , 0px -7px 19px yellow, 7px 0px 19px yellow, -7px 0px 19px yellow; */
+}
+
+
 .grad1 {
   background-image: linear-gradient(white,#e7b633, rgb(111, 235, 235));
 }
@@ -48,12 +61,13 @@
   #progress_section .card {
     border: none !important;
     border-radius: 0% !important;
-    box-shadow: black 4px 4px 5px;
+    box-shadow: black 1px 2px 5px;
   }
 
-  #projects_section {
-    background-color: blueviolet;
+  #progress_section .card:hover{
+    box-shadow: black 3px 5px 19px;
   }
+  
   #projects_section .card-title {
     min-height: 8rem;
   }
@@ -88,8 +102,8 @@
   
   
 
-  .btn {
-    border-radius: .1rem !important;
+  #projects_section .btn {
+    border-radius: .2rem !important;
     border: solid 1px !important;
     width: 90%;
   

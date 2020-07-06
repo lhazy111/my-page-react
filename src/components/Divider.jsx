@@ -1,20 +1,28 @@
 import React from 'react'
 import { Row, Col } from 'react-bootstrap'
+import { Link } from 'react-scroll'
 
 
 const Divider = ({ sectionName, textColor }) => {
     const classes = [
-        `display-3 d-inline-block text-${textColor}`,
+        ` d-inline-block text-${textColor}`,
         `divider-custom divider-${textColor}`,
         `divider-custom-line`]
     return (
         <>
             <Row>
-                <Col>
+                <Col xs={10}>
                     <h1 className={classes[0]}>{sectionName}</h1>
                 </Col>
-                <Col sm={2} className="text-right">
-                    <a className="btn btn-sm btn-warning rounded-pill p-0 m-0" href="#home-wrap">Home</a>
+                <Col xs={2} className="text-right">
+                    <Link
+                        to="home-wrap"
+                        smooth={true}
+                        duration={1000}
+                        className="btn btn-sm btn-warning p-1 m-0" >
+                        Home
+                    </Link>
+
                 </Col>
             </Row>
 
