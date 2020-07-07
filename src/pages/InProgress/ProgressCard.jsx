@@ -16,7 +16,8 @@ const ProgressCard = ({ data }) => {
                     </Card.Body>
                     <Card.Footer className="text-muted">
                         <ProgressBar
-                            variant="primary"
+                            className=""
+                            variant="info"
                             now={data.label}
                             label={`${data.label}%`}
                         />

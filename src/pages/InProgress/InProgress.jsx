@@ -17,12 +17,12 @@ const InProgress = () => {
                 <Container className="bg-danger p-5 section-shadow rounded">
                     <Divider
                         sectionName="In progress"
-                        textColor="warning" />
+                        textColor="info" />
 
                     <Row className="d-flex justify-content-center">
                         <Col sm={4}>
                             <Image fluid src={lifelong} />
-                            <p className="text-center font-light font-italic font-danger">Life long learning...</p>
+                            <p className="text-center font-light font-italic text-info">Life long learning...</p>
                         </Col>
                     </Row>
 

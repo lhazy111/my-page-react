@@ -6,7 +6,7 @@ const classes = [
     `bg-dark text-light h-100 project-card zoom`,
     `p-3`,
     `font-weight-light`,
-    `mb-2 text-muted font-italic`,
+    `mb-2  font-italic`,
     `p-3 project-description`,
     'font-weight-light font-italic text-small',
     `pt-4 text-center project-card-button`,
