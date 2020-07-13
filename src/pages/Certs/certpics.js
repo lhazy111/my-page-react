@@ -107,18 +107,18 @@ export default [
         id: 17,
         src: '/assets/img/certs/free_resp_web_design.png',
         title: 'pro',
-        description: 'This FreecodeCamp certificate'
+        description: 'Approximately 300hrs of coursework related to HTML, CSS, applied visual design, applied accesibility, responsive website design principles, CSS flexbox, CSS grid and finished with 5 projects'
     },
     {
         id: 18,
         src: '/assets/img/certs/free_js-algorithms_design.png',
         title: 'pro',
-        description: 'This FreecodeCamp certificate'
+        description: 'Approximately 300hrs of coursework. Certificate granted for getting through challenges related to Javascript programming concepts which range from variables and arithmetic to objects and loops finished with 5 algorithm scripting challenges'
     },
     {
         id: 19,
         src: '/assets/img/certs/free_libraries.png',
-        description: 'This FreecodeCamp certificate'
+        description: 'Approximately 300hrs of coursework. Certificate granted for solving tasks related to Bootstrap, jQuery, Sass, React, Redux and ended with 5 projects'
     },
 
 ]
