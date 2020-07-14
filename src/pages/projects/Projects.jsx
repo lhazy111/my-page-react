@@ -19,6 +19,7 @@ import pr11 from './img/weryk.png'
 import pr12 from './img/landing.png'
 import pr13 from './img/scratch.png'
 import pr14 from './img/moriak.png'
+import Noproject from '../../components/Noproject'
 const projectssrc = [pr0, pr1, pr2, pr3, pr4, pr5, pr6, pr7, pr8, pr9, pr10, pr11, pr12, pr13, pr14]
 const classes = [
     `page-section mb-0 bg-info projects`,
@@ -30,7 +31,14 @@ const Projects = () => {
         console.log(e.target.value)
         setProjectsFilter(e.target.value)
     }
-
+    let projectsToShow = projects.filter(project => {
+        let projectData = (project.title + project.subtitle + project.description).toLowerCase()
+        if (projectData.includes(projectsFilter.toLowerCase())) {
+            return project
+        }
+        return null
+    })
+    console.log(projectsToShow)
     return (
         <>
             <section className={classes[0]} id="projects_section">
@@ -44,14 +52,12 @@ const Projects = () => {
                     <input className="my-4" value={projectsFilter} onChange={(e) => { handleChange(e) }} placeholder="any phrase to filter"></input>
                     {/* <Image fluid src={projectssrc[2]} /> */}
                     <Row>
-                        {projects.map(project => {
-                            let projectData = (project.title + project.subtitle + project.description).toLowerCase()
-                            console.log(project.title + project.subtitle)
-                            if (projectData.includes(projectsFilter.toLowerCase())) {
+                        {projectsToShow.length > 0 ?
+                            projectsToShow.map(project => {
                                 return <Project key={project.id} project={project} imgsrc={projectssrc[project.id]} />
                             }
-                            return null
-                        })}
+                            ) :
+                            <Noproject phrase={projectsFilter} />}
                     </Row>
 
                 </Container>
