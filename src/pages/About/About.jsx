@@ -8,7 +8,7 @@ const About = () => {
         `ml-3 text-info`
     ]
     return (
-        <div>
+        <>
             <section className={classes[0]} id="about-me">
                 <Container className="bg-danger p-5 rounded section-shadow">
                     <Divider
@@ -35,7 +35,7 @@ const About = () => {
                     </Row>
                 </Container>
             </section>
-        </div>
+        </>
     )
 }
 

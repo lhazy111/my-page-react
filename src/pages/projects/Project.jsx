@@ -10,7 +10,7 @@ const classes = [
     `p-3 project-description`,
     'font-weight-light font-italic text-small',
     `pt-4 text-center project-card-button`,
-    `btn btn-sm btn-primary text-small mb-3`
+    `btn btn-sm btn-primary text-small mb-3 btn-project`
 ]
 
 const Project = ({ project, imgsrc }) => {

@@ -4,6 +4,7 @@ import About from './pages/About/About';
 import Certs from './pages/Certs/Certs';
 import InProgress from './pages/InProgress/InProgress';
 import Projects from './pages/projects/Projects';
+import Contact from './pages/Contact/Contact';
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <Certs />
       <InProgress />
       <Projects />
+      <Contact />
     </>
   );
 }

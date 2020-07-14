@@ -1,4 +1,5 @@
 import React from 'react'
+import { useState } from 'react'
 import Divider from '../../components/Divider'
 import { Container, Row } from 'react-bootstrap'
 import Project from './Project'
@@ -24,7 +25,12 @@ const classes = [
     `text-white font-weight-light py-3`
 ]
 const Projects = () => {
-    console.log('projectsrc', projectssrc)
+    const [projectsFilter, setProjectsFilter] = useState('')
+    const handleChange = (e) => {
+        console.log(e.target.value)
+        setProjectsFilter(e.target.value)
+    }
+
     return (
         <>
             <section className={classes[0]} id="projects_section">
@@ -33,10 +39,18 @@ const Projects = () => {
                     <p className={classes[1]}>
                         In this section I would like to present some of the projects created on my self-study way...
                     </p>
+                    <p className="text-light">Also this site is one of them and is made with React</p>
+                    <p className="text-light">Filter them using any phrase included in title, subtitle or description</p>
+                    <input className="my-4" value={projectsFilter} onChange={(e) => { handleChange(e) }} placeholder="any phrase to filter"></input>
                     {/* <Image fluid src={projectssrc[2]} /> */}
                     <Row>
                         {projects.map(project => {
-                            return <Project key={project.id} project={project} imgsrc={projectssrc[project.id]} />
+                            let projectData = (project.title + project.subtitle + project.description).toLowerCase()
+                            console.log(project.title + project.subtitle)
+                            if (projectData.includes(projectsFilter.toLowerCase())) {
+                                return <Project key={project.id} project={project} imgsrc={projectssrc[project.id]} />
+                            }
+                            return null
                         })}
                     </Row>
 

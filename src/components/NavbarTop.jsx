@@ -6,8 +6,8 @@ import { Link } from "react-scroll";
 const NavbarTop = () => {
     return (
         <>
-            <Navbar className="text-dark shadow p-0 pb-2 rounded mt-3">
-                <Nav className="d-flex flex-column flex-md-row " id="navbar">
+            <Navbar className="text-dark shadow p-0 pb-2 rounded mt-3 ">
+                <Nav className="d-flex flex-column flex-sm-row " id="navbar">
                     <Nav.Item className="">
                         <Link
                             className="btn"
@@ -35,6 +35,16 @@ const NavbarTop = () => {
                             smooth={true}
                             duration={1000}>
                             Projects
+                        </Link>
+                    </Nav.Item>
+                    <Nav.Item>
+                        <Link
+                            className="btn"
+                            to="contact-me"
+                            spy={true}
+                            smooth={true}
+                            duration={1000}>
+                            Contact
                         </Link>
                     </Nav.Item>
                 </Nav>
