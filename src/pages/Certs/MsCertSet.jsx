@@ -10,7 +10,7 @@ const MsCertSet = ({ certpics }) => {
             <MsCertPro
                 cert={certpics[0]}
             />
-            <Row className="pt-3 text-small text-monospace">
+            <Row className="pt-3">
                 {certpics.map(cert => {
                     return cert.title !== "pro" ? <MsCert key={cert.id} src={cert.src} description={cert.description} alt={cert.alt} /> : null
                 })}

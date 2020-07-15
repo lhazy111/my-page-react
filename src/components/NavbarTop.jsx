@@ -6,7 +6,7 @@ import { Link } from "react-scroll";
 const NavbarTop = () => {
     return (
         <>
-            <Navbar className="text-dark shadow p-0 pb-2 rounded mt-3 ">
+            <Navbar className="text-dark shadow p-0   mt-3 ">
                 <Nav className="d-flex flex-column flex-sm-row " id="navbar">
                     <Nav.Item className="">
                         <Link

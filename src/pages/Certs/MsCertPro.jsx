@@ -5,11 +5,11 @@ import { Row, Col, Image } from 'react-bootstrap'
 const MsCertPro = ({ cert }) => {
     return (
         <>
-            <Row className="pt-5 text-small text-monospace">
-                <Col lg={5} md={7}>
+            <Row className="py-5">
+                <Col lg={4} md={6}>
                     <Image fluid className="shadow zoom" src={cert.src} alt={cert.alt} />
                 </Col>
-                <Col lg={7} md={5} className="d-flex align-items-center">
+                <Col lg={6} md={4} className="d-flex align-items-center">
                     <p className="p-2">{cert.description}</p>
                 </Col>
             </Row>

@@ -31,20 +31,11 @@
 #navbar .btn:hover{
   /* background-color:yellow; */
   color: yellow;
-
-  text-shadow:1px 1px 1px yellow;
-  /* box-shadow: 0px 7px 19px yellow , 0px -7px 19px yellow, 7px 0px 19px yellow, -7px 0px 19px yellow; */
+  background-color: rgba(0, 0, 0, 0.904);
 }
 
 
-.grad1 {
-  background-image: linear-gradient(white,#e7b633, rgb(111, 235, 235));
-}
 
-.grad2{
-  background-image: linear-gradient(rgb(111, 235, 235),rgb(255, 208, 0), rgb(31, 168, 202), rgba(0, 0, 0, 0.904));
-
-}
 .text-small{
   font-size: small;
    }
@@ -79,10 +70,10 @@
     margin-top: auto;
   }
 .project-card:hover {
-    box-shadow: white 0px 0px 15px ;
+    box-shadow: black 1px 0px 15px ;
 
   }
-  .section-shadow {
+  .section-shadows {
     box-shadow: white 0px 0px 15px ;
   }
 
@@ -102,13 +93,16 @@
   
   
 
-  #projects_section .btn-project {
+  .btn-project {
     border-radius: .2rem !important;
     border: solid 1px !important;
     width: 90%;
   
   }
 
+  .btn-project:hover {
+    box-shadow: 0px 0px 3px black;
+ }
   
 
   /*-----------------------------------------------*/
@@ -7278,7 +7272,7 @@ h3 {
     border-color: #dee2e6; } }
 
 .page-section {
-  padding: 6rem 0; }
+  padding: 0rem 0; }
   .page-section .page-section-heading {
     font-size: 2.25rem;
     line-height: 2rem; }

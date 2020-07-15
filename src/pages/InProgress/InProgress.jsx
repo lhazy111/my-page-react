@@ -8,13 +8,13 @@ import lifelong from '../InProgress/lifelong.png'
 
 const InProgress = () => {
     const classes = [
-        `bg-info page-section   progress_section`,
+        `bg-light py-5 progress_section`,
         `pt-5 px-2`
     ]
     return (
         <div>
             <section className={classes[0]} id="progress_section">
-                <Container className="bg-danger p-5 section-shadow rounded">
+                <Container className="bg-light p-5">
                     <Divider
                         sectionName="In progress"
                         textColor="info" />

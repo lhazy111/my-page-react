@@ -2,15 +2,15 @@ import React from 'react'
 import { Col, Image, Card } from 'react-bootstrap'
 
 const classes = [
-    `px-2 py-2`,
-    `bg-dark text-light h-100 project-card zoom`,
+    `px-4 py-4`,
+    `bg-light text-info shadow-lg h-100 project-card`,
     `p-3`,
     `font-weight-light`,
-    `mb-2  font-italic`,
+    `mb-2 text-muted`,
     `p-3 project-description`,
     'font-weight-light font-italic text-small',
     `pt-4 text-center project-card-button`,
-    `btn btn-sm btn-primary text-small mb-3 btn-project`
+    `btn btn-sm btn-info text-small mb-3 btn-project`
 ]
 
 const Project = ({ project, imgsrc }) => {
@@ -22,7 +22,7 @@ const Project = ({ project, imgsrc }) => {
                     className={classes[1]}
                 >
                     <Card.Title className={classes[2]}>
-                        <h4 className={classes[3]}>{project.title}</h4>
+                        <h3 className={classes[3]}>{project.title}</h3>
                         <p className={classes[4]}>{project.subtitle}</p>
                     </Card.Title>
                     <Image fluid src={imgsrc} alt="Card" />

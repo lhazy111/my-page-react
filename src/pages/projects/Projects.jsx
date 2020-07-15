@@ -22,13 +22,12 @@ import pr14 from './img/moriak.png'
 import Noproject from '../../components/Noproject'
 const projectssrc = [pr0, pr1, pr2, pr3, pr4, pr5, pr6, pr7, pr8, pr9, pr10, pr11, pr12, pr13, pr14]
 const classes = [
-    `page-section mb-0 bg-info projects`,
-    `text-white font-weight-light py-3`
+    `py-5 mb-0 bg-light projects`,
+    `text-info  py-3`
 ]
 const Projects = () => {
     const [projectsFilter, setProjectsFilter] = useState('')
     const handleChange = (e) => {
-        console.log(e.target.value)
         setProjectsFilter(e.target.value)
     }
     let projectsToShow = projects.filter(project => {
@@ -38,17 +37,16 @@ const Projects = () => {
         }
         return null
     })
-    console.log(projectsToShow)
     return (
         <>
             <section className={classes[0]} id="projects_section">
-                <Container >
-                    <Divider sectionName="Projects" textColor="light" />
+                <Container>
+                    <Divider sectionName="Projects" textColor="info" />
                     <p className={classes[1]}>
                         In this section I would like to present some of the projects created on my self-study way...
                     </p>
-                    <p className="text-light">Also this site is one of them and is made with React</p>
-                    <p className="text-light">Filter them using any phrase included in title, subtitle or description</p>
+                    <p className="text-info">Also this site is one of them and is made with React</p>
+                    <p className="text-info">Filter them using any phrase included in title, subtitle or description</p>
                     <input className="my-4" value={projectsFilter} onChange={(e) => { handleChange(e) }} placeholder="any phrase to filter"></input>
                     {/* <Image fluid src={projectssrc[2]} /> */}
                     <Row>

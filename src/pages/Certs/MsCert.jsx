@@ -7,7 +7,7 @@ const MsCert = ({ src, alt, description }) => {
         <>
             <Col lg={4} md={6}>
                 <Image fluid className="shadow zoom" src={src} alt={alt} />
-                <p className="p-2">{description}</p>
+                <p className="mt-4 p-2">{description}</p>
             </Col>
         </>
     )

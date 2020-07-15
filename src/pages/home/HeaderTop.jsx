@@ -8,13 +8,13 @@ import NavbarTop from '../../components/NavbarTop';
 const HeaderTop = () => {
     return (
         <>
-            <Container fluid id="home-wrap">
-                <Row className="h-100 bg-info">
-                    <Col md={6} className="d-flex align-items-center justify-content-center flex-column home-left shadow bg-info ">
+            <Container fluid >
+                <Row className="bg-info" id="home-wrap">
+                    <Col md={6} className="d-flex align-items-center justify-content-center flex-column home-left bg-info ">
                         <Image fluid id="home-logo" src={logo} />
 
                     </Col>
-                    <Col md={6} className="home-right bg-primary rounded section-shadow">
+                    <Col md={6} className="home-right bg-primary">
                         <Row className="d-flex h-100 pt-5 ">
 
                             <Col className="d-flex flex-column align-items-center justify-content-between">
