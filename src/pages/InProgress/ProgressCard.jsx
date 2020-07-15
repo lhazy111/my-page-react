@@ -6,7 +6,7 @@ const ProgressCard = ({ data }) => {
     return (
         <>
             <Col lg={3} md={6} className="pt-5 px-2">
-                <Card className="h-100 zoom">
+                <Card className="h-100 zoom shadow-lg mx-2">
                     <Card.Img src={data.src} />
                     <Card.Body>
                         <Card.Title>{data.title}</Card.Title>

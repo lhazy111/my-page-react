@@ -52,7 +52,6 @@
   #progress_section .card {
     border: none !important;
     border-radius: 0% !important;
-    box-shadow: black 1px 2px 5px;
   }
 
   #progress_section .card:hover{
@@ -69,13 +68,8 @@
   .project-card-button{
     margin-top: auto;
   }
-.project-card:hover {
-    box-shadow: black 1px 0px 15px ;
 
-  }
-  .section-shadows {
-    box-shadow: white 0px 0px 15px ;
-  }
+  
 
   .full-screen{
     height: 100vh;
