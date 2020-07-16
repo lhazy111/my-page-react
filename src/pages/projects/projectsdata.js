@@ -74,7 +74,7 @@ export default [
         title: 'Shopping list',
         subtitle: 'HTML, CSS, Bootstrap, Javascript',
         description: "This app is a little helper for everyone especially when using on mobile phone. It allows create shopping list on the go and then modify when shopping. Items can be deleted or strikeout. It's stripped of unnecesarry styling to make it as readable as possible even for short-sighted people.",
-        prlink: 'https://lhazy111.github.io/2.html'
+        prlink: 'https://lhazy111.github.io/1-2/2.html'
     },
     {
         id: 11,
@@ -88,7 +88,7 @@ export default [
         title: 'Landing page',
         subtitle: 'HTML, CSS, Javascript',
         description: "This is just a landing page done for one of my food blogger friends. To be continued...hopefully",
-        prlink: './projects/weather/index.html'
+        prlink: 'https://lhazy111.github.io/1-2/'
     },
     {
         id: 13,
