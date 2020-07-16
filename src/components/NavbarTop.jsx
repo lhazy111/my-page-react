@@ -10,7 +10,7 @@ const NavbarTop = () => {
                 <Nav className="d-flex flex-column flex-sm-row " id="navbar">
                     <Nav.Item className="">
                         <Link
-                            className="btn"
+                            className="btn btn-block"
                             to="about-me"
                             spy={true}
                             smooth={true}
@@ -19,7 +19,7 @@ const NavbarTop = () => {
                     </Nav.Item>
                     <Nav.Item>
                         <Link
-                            className="btn"
+                            className="btn btn-block"
                             to="certificates"
                             spy={true}
                             smooth={true}
@@ -29,7 +29,7 @@ const NavbarTop = () => {
                     </Nav.Item>
                     <Nav.Item>
                         <Link
-                            className="btn"
+                            className="btn btn-block"
                             to="projects_section"
                             spy={true}
                             smooth={true}
@@ -39,7 +39,7 @@ const NavbarTop = () => {
                     </Nav.Item>
                     <Nav.Item>
                         <Link
-                            className="btn"
+                            className="btn btn-block"
                             to="contact-me"
                             spy={true}
                             smooth={true}
