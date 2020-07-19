@@ -101,7 +101,7 @@ export default [
         id: 14,
         title: 'Moriak Photography',
         subtitle: 'HTML, CSS',
-        description: "Actually this website has been done before I even started my learning with edx. It was on for a few years. Not too bad as for total novice that time ;-)",
-        prlink: './projects/weather/index.html'
+        description: "Actually this website has been done before I even started my learning with edx. It was on for a few years. Now only in my archives. Not too bad as for total novice that time (2009) ;-)",
+        prlink: 'https://moriak.s3.eu-west-2.amazonaws.com/index.html'
     },
 ]
