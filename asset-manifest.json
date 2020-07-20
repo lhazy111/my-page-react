@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/lhazy111/my-page-react/static/css/main.0a63fafb.chunk.css",
+    "main.js": "/lhazy111/my-page-react/static/js/main.1f801f98.chunk.js",
+    "main.js.map": "/lhazy111/my-page-react/static/js/main.1f801f98.chunk.js.map",
+    "runtime-main.js": "/lhazy111/my-page-react/static/js/runtime-main.ba57a911.js",
+    "runtime-main.js.map": "/lhazy111/my-page-react/static/js/runtime-main.ba57a911.js.map",
+    "static/js/2.98f91202.chunk.js": "/lhazy111/my-page-react/static/js/2.98f91202.chunk.js",
+    "static/js/2.98f91202.chunk.js.map": "/lhazy111/my-page-react/static/js/2.98f91202.chunk.js.map",
+    "index.html": "/lhazy111/my-page-react/index.html",
+    "precache-manifest.4a7a992709ee31a31d973d6c400ffc6b.js": "/lhazy111/my-page-react/precache-manifest.4a7a992709ee31a31d973d6c400ffc6b.js",
+    "service-worker.js": "/lhazy111/my-page-react/service-worker.js",
+    "static/css/main.0a63fafb.chunk.css.map": "/lhazy111/my-page-react/static/css/main.0a63fafb.chunk.css.map",
+    "static/js/2.98f91202.chunk.js.LICENSE.txt": "/lhazy111/my-page-react/static/js/2.98f91202.chunk.js.LICENSE.txt",
+    "static/media/avataaars.png": "/lhazy111/my-page-react/static/media/avataaars.42c52669.png",
+    "static/media/battleship.png": "/lhazy111/my-page-react/static/media/battleship.54e25c34.png",
+    "static/media/bg_genertor.png": "/lhazy111/my-page-react/static/media/bg_genertor.f53674ae.png",
+    "static/media/bob.png": "/lhazy111/my-page-react/static/media/bob.fd789480.png",
+    "static/media/calc.png": "/lhazy111/my-page-react/static/media/calc.6ab1b207.png",
+    "static/media/drummachine.png": "/lhazy111/my-page-react/static/media/drummachine.96f192a0.png",
+    "static/media/landing.png": "/lhazy111/my-page-react/static/media/landing.91494c5b.png",
+    "static/media/lifelong.png": "/lhazy111/my-page-react/static/media/lifelong.a09caace.png",
+    "static/media/loulogo.png": "/lhazy111/my-page-react/static/media/loulogo.94bf2511.png",
+    "static/media/markup.png": "/lhazy111/my-page-react/static/media/markup.5f32cb90.png",
+    "static/media/moriak.png": "/lhazy111/my-page-react/static/media/moriak.fae5909f.png",
+    "static/media/pomodoro.png": "/lhazy111/my-page-react/static/media/pomodoro.8d88f3f6.png",
+    "static/media/quotemachine.png": "/lhazy111/my-page-react/static/media/quotemachine.c19e3939.png",
+    "static/media/s-list.png": "/lhazy111/my-page-react/static/media/s-list.3bd04b54.png",
+    "static/media/scratch.png": "/lhazy111/my-page-react/static/media/scratch.e8c1014e.png",
+    "static/media/trivia.png": "/lhazy111/my-page-react/static/media/trivia.07dc0425.png",
+    "static/media/weather.png": "/lhazy111/my-page-react/static/media/weather.59c777c9.png",
+    "static/media/weryk.png": "/lhazy111/my-page-react/static/media/weryk.d30035f3.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ba57a911.js",
+    "static/js/2.98f91202.chunk.js",
+    "static/css/main.0a63fafb.chunk.css",
+    "static/js/main.1f801f98.chunk.js"
+  ]
+}
