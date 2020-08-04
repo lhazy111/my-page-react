@@ -18,7 +18,7 @@ export default [
         title: 'Pomodoro clock',
         subtitle: 'HTML, CSS, ReactBootstrap, React',
         description: "React app done with React Hooks. The Pomodoro Technique is a time management method developed by Francesco Cirillo in the late 1980s.The technique uses a timer to break down work into intervals, traditionally 25 minutes in length, separated by short breaks. Responsive design with mobile first approach thanks to React Bootstrap. Sounds created with GarageBand and CME-PRO midi keyboard.  ",
-        prlink: 'https://ocpd8.csb.app/'
+        prlink: 'https://p7dsp.csb.app/'
     },
     {
         id: 3,
