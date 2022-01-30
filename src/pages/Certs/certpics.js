@@ -120,6 +120,25 @@ export default [
         src: '/assets/img/certs/free_libraries.png',
         description: 'Approximately 300hrs of coursework. Certificate granted for solving tasks related to Bootstrap, jQuery, Sass, React, Redux and ended with 5 projects'
     },
+    {
+        id: 20,
+        src: '/assets/img/certs/udacity.png',
+        description1: 'The Cloud Developer Nanodegree program is comprised of 4 courses and 5 projects.',
+        description2: '1. Compute power, security, storage, networking, messaging, and management services in the cloud. Finished with deploying static website on AWS',
+        description3: '2. Designing and deploying scalable, extendable, and maintainable full stack applications using modern cloud architecture.',
+        description4: '3. Best practices on how to develop and deploy microservices, with a focus on different microservice architecture patterns, independent scaling, resiliency, securing microservices, and best practices for monitoring and logging.',
+        description5: '4. Using serverless technologies with the practice of developing a complex serverless application.'
+    },
+    {
+        id: 21,
+        src: '/assets/img/certs/AWS-CP.png',
+        description: 'Earners of this certification have a fundamental understanding of IT services and their uses in the AWS Cloud. They demonstrated cloud fluency and foundational AWS knowledge. Owners are able to identify essential AWS services necessary to set up AWS-focused projects.'
+    },
+    {
+        id: 22,
+        src: '/assets/img/certs/AWS-SAA.png',
+        description: 'Earners of this certification have a comprehensive understanding of AWS services and technologies. They demonstrated the ability to build secure and robust solutions using architectural design principles based on customer requirements. Owners are able to strategically design well-architected distributed systems that are scalable, resilient, efficient, and fault-tolerant.'
+    },
 
 ]
 

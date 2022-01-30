@@ -20,11 +20,57 @@ const Certs = () => {
                     />
                     <Row className={classes[1]}>
                         <Col md={7}>
-                            <a href="https://academy.microsoft.com/en-us/certificates/81f06e86-f149-4066-aa44-bceec7912b7d">
+                            <a href='https://www.credly.com/badges/7eef42d2-e873-448d-906c-2d923e4d5988'>
                                 <Image fluid
-                                    className={classes[2]} src={certpics[0].src}>
+                                    className={classes[2]} src={certpics[22].src}>
                                 </Image>
                             </a>
+                        </Col>
+                    </Row>
+                    <Row className={classes[1]}>
+                        <Col>
+                            <p>{certpics[22].description}</p>
+                        </Col>
+                    </Row>
+                    <Row className={classes[1]}>
+                        <Col md={7}>
+                            <a href='https://www.credly.com/badges/029b9bdf-1574-407a-9bc6-09d5c346babf'>
+                                <Image fluid
+                                    className={classes[2]} src={certpics[21].src}>
+                                </Image>
+                            </a>
+                        </Col>
+                    </Row>
+                    <Row className={classes[1]}>
+                        <Col>
+                            <p>{certpics[21].description}</p>
+                        </Col>
+                    </Row>
+                    <Row className={classes[1]}>
+                        <Col md={7}>
+                            <a href='https://confirm.udacity.com/EQNNHDRL'>
+                                <Image fluid
+                                    className={classes[2]} src={certpics[20].src}>
+                                </Image>
+                            </a>
+                        </Col>
+                    </Row>
+                    <Row className={classes[1]}>
+                        <Col>
+                            <p>{certpics[20].description1}</p>
+                            <p>{certpics[20].description2}</p>
+                            <p>{certpics[20].description3}</p>
+                            <p>{certpics[20].description4}</p>
+                            <p>{certpics[20].description5}</p>
+
+
+                        </Col>
+                    </Row>
+                    <Row className={classes[1]}>
+                        <Col md={7}>
+                            <Image fluid
+                                className={classes[2]} src={certpics[0].src}>
+                            </Image>
                         </Col>
                     </Row>
                     <Row className={classes[1]}>

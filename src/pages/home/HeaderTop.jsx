@@ -22,7 +22,7 @@ const HeaderTop = () => {
                                     <Image fluid id="home-avatar" src={avatar} />
                                     <h1 className="masthead-heading text-center mb-0 border border-info">Welcome</h1>
                                 </div>
-                                <p className="pre-wrap masthead-subheading font-weight-light mb-0">HTML_CSS_JS_BOOTSTRAP_REACT...</p>
+                                <p className="pre-wrap masthead-subheading font-weight-light mb-0">HTML_CSS_JS_BOOTSTRAP_REACT_AWS...</p>
 
                             </Col>
                         </Row>
