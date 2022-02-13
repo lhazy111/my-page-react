@@ -58,8 +58,8 @@ const Contact = () => {
                 </Container>
             </footer>
             <section className="copyright py-4 text-center bg-info">
-                <div className="container"><small className="bg-info text-light">Copyright © &lt;_Lou/&gt; 2020
-            </small></div>
+                <div className="container"><small className="bg-info text-light">Copyright © &lt;_Lou/&gt; 2022
+                </small></div>
             </section>
         </>
     )
