@@ -139,6 +139,11 @@ export default [
         src: '/assets/img/certs/AWS-SAA.png',
         description: 'Earners of this certification have a comprehensive understanding of AWS services and technologies. They demonstrated the ability to build secure and robust solutions using architectural design principles based on customer requirements. Owners are able to strategically design well-architected distributed systems that are scalable, resilient, efficient, and fault-tolerant.'
     },
+    {
+        id: 23,
+        src: '/assets/img/certs/AWS-SEC.png',
+        description: 'Earners of this certification have an in-depth understanding of AWS security services and the shared responsibility model (between AWS and the customer). They demonstrated the ability to design, implement, and troubleshoot various security models in the AWS Cloud. Owners can leverage various security models for organizations of all sizes.'
+    }
 
 ]
 

@@ -20,6 +20,20 @@ const Certs = () => {
                     />
                     <Row className={classes[1]}>
                         <Col md={7}>
+                            <a href='https://www.credly.com/badges/b2c8ffd7-e08b-43a4-8612-56f7dbfb7b3e'>
+                                <Image fluid
+                                    className={classes[2]} src={certpics[23].src}>
+                                </Image>
+                            </a>
+                        </Col>
+                    </Row>
+                    <Row className={classes[1]}>
+                        <Col>
+                            <p>{certpics[23].description}</p>
+                        </Col>
+                    </Row>
+                    <Row className={classes[1]}>
+                        <Col md={7}>
                             <a href='https://www.credly.com/badges/7eef42d2-e873-448d-906c-2d923e4d5988'>
                                 <Image fluid
                                     className={classes[2]} src={certpics[22].src}>
